@@ -1,0 +1,35 @@
+#sun{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 40px;
+   
+  
+   
+}
+#hover:hover{
+background-color: rgb(238, 196, 170);
+
+}
+#hover{
+    background-color: rgb(169, 149, 167);
+}
+
+
+#go{
+    padding-left: 200px;
+}
+@media(max-width:768px){
+    #sun{
+        display: inline;
+    }
+    #po{
+        display: inline;
+    }
+}
+
+#moon{
+    background-image: url("https://th.bing.com/th/id/OIP.unY_KyFqRyT41J_EzkbDGQHaGr?w=529&h=477&rs=1&pid=ImgDetMain");
+}
+/* #king{
+    background-image: url(https://th.bing.com/th/id/R.1d277ca5fa87632dc6b49d919f8bc3e2?rik=%2bGO48NtB9kMTZQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f5IMSHl3.jpg&ehk=SIaz%2fTfzrML1YS1aXeiGxteZ7DD87D%2b00F8GsBiYMEc%3d&risl=&pid=ImgRaw&r=0);
+} */
